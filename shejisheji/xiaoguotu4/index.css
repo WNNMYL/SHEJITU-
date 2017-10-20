@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  font-size: 0.16rem; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #f4f4f4;
+  padding: 0.08rem 0;
+  align-items: center; }
+  .header .head-L {
+    width: 30%; }
+    .header .head-L img {
+      width: 100%;
+      margin-left: 0.08rem; }
+  .header .head-C {
+    width: 50%;
+    text-align: center;
+    font-size: 0.18rem; }
+  .header .head-R {
+    width: 20%; }
+    .header .head-R ul {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .header .head-R ul li {
+        text-align: center;
+        margin-right: 0.08rem; }
+        .header .head-R ul li span {
+          font-size: 0.2rem;
+          color: #999; }
+        .header .head-R ul li p {
+          font-size: 0.11rem;
+          color: #999; }
+
+.nav {
+  width: 100%;
+  height: 1rem; }
+  .nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .nav ul li {
+      width: 25%;
+      text-align: center;
+      border-right: 1px solid #f4f4f4; }
+      .nav ul li p {
+        font-size: 0.18rem; }
+        .nav ul li p span {
+          display: inline-block;
+          width: 0.14rem;
+          height: 0.075rem;
+          color: #999;
+          margin-left: 0.1rem; }
+    .nav ul .LI p {
+      color: #1B9AF7;
+      font-size: 0.2rem; }
+
+.con {
+  width: 100%;
+  background: #EAEAEA; }
+  .con .con-T {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; }
+    .con .con-T .con-C {
+      width: 48%;
+      text-align: center;
+      background: #fff;
+      position: relative;
+      margin-top: 0.1rem; }
+      .con .con-T .con-C img {
+        width: 100%; }
+      .con .con-T .con-C .p1 {
+        font-size: 0.18rem;
+        margin-top: 0.125rem; }
+      .con .con-T .con-C .p2 {
+        font-size: 0.1rem;
+        color: #999;
+        margin-top: 0.1rem;
+        margin-bottom: 0.125rem; }
+      .con .con-T .con-C .coco {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        top: 45%;
+        right: 0; }
+        .con .con-T .con-C .coco p {
+          background: rgba(0, 0, 0, 0.5);
+          padding: 0.03rem;
+          margin-left: 0.05rem;
+          border-radius: 0.05rem;
+          color: #fff; }
+  .con .con-B {
+    width: 95%;
+    margin: 0.18rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .con .con-B p {
+      width: 33.33%;
+      text-align: center;
+      height: 0.41rem;
+      line-height: 0.41rem;
+      font-size: 0.18rem; }
+    .con .con-B .p1 {
+      color: #fff;
+      background: #39C894; }
+    .con .con-B .p2 {
+      background: #fff; }
+
+.fang {
+  width: 100%;
+  border-bottom: 0.09rem solid #f4f4f4;
+  padding: 0.18rem 0; }
+  .fang div {
+    width: 95%;
+    margin: 0 auto;
+    text-indent: 2em;
+    color: #333;
+    font-size: 0.14rem; }
+
+.fuwu {
+  width: 100%;
+  text-align: center;
+  position: relative; }
+  .fuwu .p1 {
+    font-size: 0.14rem;
+    color: #333;
+    margin-top: 0.1rem; }
+    .fuwu .p1 span {
+      font-size: 0.16rem;
+      color: #00BE9C; }
+  .fuwu .p2 {
+    position: absolute;
+    top: -0.1rem;
+    right: 0;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    padding: 0.1rem 0.15rem; }
+    .fuwu .p2 span {
+      color: #9c9c9c; }
+  .fuwu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1rem 0; }
+    .fuwu ul li {
+      font-size: 0.14rem; }
+    .fuwu ul li:hover {
+      color: #00BE9C; }
+
+.foot {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-around;
+  height: 0.53rem;
+  align-items: center;
+  position: relative; }
+  .foot span {
+    display: inline-block;
+    width: 0.14rem;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    background: #00BE9C;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 0;
+    border-radius: 0 0 100% 0; }
+  .foot img {
+    width: 50%; }
+  .foot p {
+    height: 0.25rem;
+    width: 1rem;
+    font-size: 0.14rem;
+    background: #feb505;
+    color: #fff;
+    padding: 0.05rem;
+    border-radius: 0.3rem; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  font-size: 0.16rem; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  width: 100%; }
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.08rem 0;
+  align-items: center; }
+  .header .head-L {
+    width: 30%; }
+    .header .head-L img {
+      width: 100%;
+      margin-left: 0.08rem; }
+  .header .head-C {
+    width: 50%;
+    text-align: center;
+    font-size: 0.18rem; }
+  .header .head-R {
+    width: 20%; }
+    .header .head-R ul {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .header .head-R ul li {
+        text-align: center;
+        margin-right: 0.08rem; }
+        .header .head-R ul li span {
+          font-size: 0.2rem;
+          color: #999; }
+        .header .head-R ul li p {
+          font-size: 0.11rem;
+          color: #999; }
+
+.con {
+  width: 100%; }
+  .con .con-T {
+    width: 100%; }
+    .con .con-T img {
+      width: 100%; }
+  .con .con-C {
+    width: 100%;
+    position: relative; }
+    .con .con-C img {
+      width: 100%; }
+    .con .con-C p {
+      position: absolute; }
+    .con .con-C .p1 {
+      top: 0.15rem;
+      left: 0.5rem;
+      color: #ff4351;
+      font-size: 0.18rem; }
+    .con .con-C .p2 {
+      top: 0.95rem;
+      left: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-C .p3 {
+      top: 1.75rem;
+      right: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-C .p4 {
+      top: 2.55rem;
+      left: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-C .p5 {
+      top: 3.35rem;
+      right: 0.9rem;
+      font-size: 0.14rem; }
+  .con .con-B {
+    width: 100%;
+    position: relative; }
+    .con .con-B img {
+      width: 100%; }
+    .con .con-B p {
+      position: absolute; }
+    .con .con-B .p1 {
+      top: 0.2rem;
+      right: 0.5rem;
+      color: dodgerblue;
+      font-size: 0.18rem; }
+    .con .con-B .p2 {
+      top: 1rem;
+      right: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-B .p3 {
+      top: 1.8rem;
+      left: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-B .p4 {
+      top: 2.6rem;
+      right: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-B .p5 {
+      top: 3.4rem;
+      left: 0.9rem;
+      font-size: 0.14rem; }
+  .con .con-D {
+    width: 100%;
+    position: relative; }
+    .con .con-D img {
+      width: 100%; }
+    .con .con-D p {
+      position: absolute; }
+    .con .con-D .p1 {
+      top: 0.2rem;
+      left: 0.5rem;
+      color: #7672eb;
+      font-size: 0.18rem; }
+    .con .con-D .p2 {
+      top: 0.95rem;
+      left: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-D .p3 {
+      top: 1.75rem;
+      right: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-D .p4 {
+      top: 2.55rem;
+      left: 0.9rem;
+      font-size: 0.14rem; }
+    .con .con-D .p5 {
+      top: 3.35rem;
+      right: 0.9rem;
+      font-size: 0.14rem; }
+
+.fang {
+  width: 100%;
+  border-bottom: 0.09rem solid #f4f4f4;
+  padding: 0.18rem 0; }
+  .fang div {
+    width: 95%;
+    margin: 0 auto;
+    text-indent: 2em;
+    color: #333;
+    font-size: 0.14rem; }
+
+.fuwu {
+  width: 100%;
+  text-align: center;
+  position: relative; }
+  .fuwu .p1 {
+    font-size: 0.14rem;
+    color: #333;
+    margin-top: 0.1rem; }
+    .fuwu .p1 span {
+      font-size: 0.16rem;
+      color: #00BE9C; }
+  .fuwu .p2 {
+    position: absolute;
+    top: -0.1rem;
+    right: 0;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    padding: 0.1rem 0.15rem; }
+    .fuwu .p2 span {
+      color: #9c9c9c; }
+  .fuwu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1rem 0; }
+    .fuwu ul li {
+      font-size: 0.14rem; }
+    .fuwu ul li:hover {
+      color: #00BE9C; }
+
+.foot {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-around;
+  height: 0.53rem;
+  align-items: center;
+  position: relative; }
+  .foot span {
+    display: inline-block;
+    width: 0.14rem;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    background: #00BE9C;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 0;
+    border-radius: 0 0 100% 0; }
+  .foot img {
+    width: 50%; }
+  .foot p {
+    height: 0.25rem;
+    width: 1rem;
+    font-size: 0.14rem;
+    background: #feb505;
+    color: #fff;
+    padding: 0.05rem;
+    border-radius: 0.3rem; }
+
+/*# sourceMappingURL=index.css.map */

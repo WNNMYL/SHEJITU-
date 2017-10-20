@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  font-size: 0.16rem; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background: #fff;
+  z-index: 50;
+  top: 0;
+  justify-content: space-around;
+  padding: 0.08rem 0;
+  align-items: center; }
+  .header .head-L {
+    width: 30%; }
+    .header .head-L img {
+      width: 100%;
+      margin-left: 0.08rem; }
+  .header .head-C {
+    width: 50%;
+    text-align: center;
+    font-size: 0.18rem; }
+  .header .head-R {
+    width: 20%; }
+    .header .head-R ul {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .header .head-R ul li {
+        text-align: center;
+        margin-right: 0.08rem; }
+        .header .head-R ul li span {
+          font-size: 0.2rem;
+          color: #999; }
+        .header .head-R ul li p {
+          font-size: 0.11rem;
+          color: #999; }
+
+.dada {
+  position: relative; }
+  .dada .con {
+    width: 100%;
+    border-bottom: 0.09rem solid #f4f4f4;
+    margin-top: 0.7rem; }
+    .dada .con .con-T {
+      width: 95%;
+      margin: 0.15rem auto;
+      border-bottom: 1px solid #f4f4f; }
+      .dada .con .con-T .con-L {
+        width: 100%;
+        display: flex;
+        justify-content: space-between; }
+        .dada .con .con-T .con-L p {
+          color: #999; }
+          .dada .con .con-T .con-L p .qw {
+            display: inline-block;
+            background: #999;
+            color: #fff;
+            border-radius: 50%;
+            padding: 0.05rem; }
+          .dada .con .con-T .con-L p .sp {
+            color: #39C893;
+            margin-left: 0.1rem;
+            display: inline-block; }
+      .dada .con .con-T .con-B {
+        margin-top: 0.1rem; }
+    .dada .con .con-d {
+      width: 95%;
+      margin: 0.15rem auto;
+      display: flex; }
+      .dada .con .con-d .p1 {
+        width: 33.33%;
+        background: #38CA94;
+        color: #fff;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        text-align: center; }
+      .dada .con .con-d .p2 {
+        width: 33.33%;
+        height: 0.3rem;
+        line-height: 0.3rem;
+        text-align: center; }
+  .dada .fang {
+    width: 100%;
+    border-bottom: 0.09rem solid #f4f4f4;
+    padding: 0.18rem 0;
+    position: relative; }
+    .dada .fang .odiv {
+      width: 95%;
+      margin: 0 auto;
+      text-indent: 2em;
+      color: #333;
+      font-size: 0.14rem; }
+    .dada .fang .dp {
+      position: absolute;
+      bottom: 0.2rem;
+      right: 0; }
+      .dada .fang .dp p {
+        width: 0.5rem;
+        box-shadow: 0.03rem 0 0.03rem rgba(0, 0, 0, 0.5);
+        height: 0.5rem;
+        border-radius: 50%;
+        line-height: 0.5rem;
+        background: #007AFF;
+        text-align: center; }
+        .dada .fang .dp p span {
+          color: #fff; }
+  .dada .fuwu {
+    width: 100%;
+    text-align: center;
+    position: relative; }
+    .dada .fuwu .p1 {
+      font-size: 0.14rem;
+      color: #333;
+      margin-top: 0.1rem; }
+      .dada .fuwu .p1 span {
+        font-size: 0.16rem;
+        color: #00BE9C; }
+    .dada .fuwu .p2 {
+      position: absolute;
+      top: -0.1rem;
+      right: 0;
+      border: 1px solid #dedede;
+      border-radius: 50%;
+      padding: 0.1rem 0.15rem; }
+      .dada .fuwu .p2 span {
+        color: #9c9c9c; }
+    .dada .fuwu ul {
+      display: flex;
+      justify-content: space-around;
+      padding: 0.1rem 0; }
+      .dada .fuwu ul li {
+        font-size: 0.14rem; }
+      .dada .fuwu ul li:hover {
+        color: #00BE9C; }
+  .dada .foot {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    height: 0.53rem;
+    align-items: center;
+    position: relative; }
+    .dada .foot span {
+      display: inline-block;
+      width: 0.14rem;
+      height: 0.14rem;
+      line-height: 0.14rem;
+      background: #00BE9C;
+      z-index: 50;
+      position: absolute;
+      top: 0;
+      color: #fff;
+      left: 0;
+      border-radius: 0 0 100% 0; }
+    .dada .foot img {
+      width: 50%; }
+    .dada .foot p {
+      height: 0.25rem;
+      width: 1rem;
+      font-size: 0.14rem;
+      background: #feb505;
+      color: #fff;
+      padding: 0.05rem;
+      border-radius: 0.3rem; }
+
+.zezhao {
+  display: none;
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  height: 100%; }
+  .zezhao .xiao {
+    width: 100%;
+    position: absolute;
+    top: 50%; }
+    .zezhao .xiao .zz-T {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #eee;
+      padding: 0.1rem; }
+      .zezhao .xiao .zz-T button {
+        display: inline-block;
+        border: 0;
+        background: 999;
+        color: #000;
+        padding: 0.02rem 0.05rem; }
+      .zezhao .xiao .zz-T input {
+        display: inline-block;
+        border: 0;
+        background: #00BE9C;
+        color: #fff;
+        padding: 0.02rem 0.05rem; }
+    .zezhao .xiao .zz {
+      width: 100%;
+      margin: 0 auto;
+      background: #eee; }
+      .zezhao .xiao .zz input {
+        width: 100%;
+        height: 0.825rem;
+        display: inline-block;
+        background: #fff; }
+    .zezhao .xiao .zz-B {
+      width: 100%; }
+      .zezhao .xiao .zz-B img {
+        width: 100%; }
+
+/*# sourceMappingURL=demo.css.map */

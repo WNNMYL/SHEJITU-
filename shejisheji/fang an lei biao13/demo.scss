@@ -1,0 +1,194 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    font-size: 0.16rem;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0.08rem 0;
+    align-items: center;
+    .head-L {
+        width: 30%;
+        img {
+            width: 100%;
+            margin-left: 0.08rem;
+        }
+    }
+    .head-C {
+        width: 50%;
+        text-align: center;
+        font-size: 0.18rem;
+    }
+    .head-R {
+        width: 20%;
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            li {
+                text-align: center;
+                margin-right: 0.08rem;
+                span {
+                    font-size: 0.2rem;
+                    color: #999;
+                }
+                p {
+                    font-size: 0.11rem;
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+.cont {
+    width: 100%;
+    background: #eee;
+    padding-top:0.01rem ;
+    padding-bottom: 0.1rem;
+    .con {
+        width: 95%;
+        margin: 0.1rem auto;
+        position: relative;
+        background: #fff;
+      padding-bottom: 0.1rem;
+        .cont-T {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .cont-C {
+            position: absolute;
+            top: 0;
+            p{
+                color: #fff;
+                background: #00BE9C;
+                font-size: 0.14rem;
+                padding: 0.03rem 0.05rem;
+            }
+        }
+        .cont-B {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cont-L{
+                .p1{
+                   margin-top: 0.15rem; 
+                }
+                .p2{
+                   font-size: 0.14rem;
+                   color: #FF4351;
+                   margin-top: 0.1rem;
+                   span{
+                       color: #999;
+                   }
+                }
+            }
+            .cont-R{
+                
+                p{
+                    color: #fff;
+                    background: #FF4351;
+                    padding: 0.05rem ;
+                    border-radius: 0.15rem 0 0 0.15rem;
+                }
+            }
+        }
+    }
+}
+.fang{
+    text-indent: 2em;
+    margin-top: 0.1rem;
+}
+.fuwu{
+     width: 100%;
+     text-align: center;
+     position: relative;
+     .p1{
+        font-size: 0.14rem;
+        color: #333;
+         margin-top: 0.1rem;
+        span{
+            font-size: 0.16rem;
+            color: #00BE9C;
+        } 
+     }
+     .p2{
+         position: absolute;
+         top: -0.1rem;
+        right: 0;
+        border: 1px solid #dedede;
+        border-radius: 50%;
+        padding: 0.1rem 0.15rem;
+        span{
+            color: #9c9c9c;
+          
+        }
+     }
+     ul{
+         display: flex;
+         justify-content: space-around;
+         padding: 0.1rem 0;
+         li{
+             font-size: 0.14rem;
+         }
+         li:hover{
+             color: #00BE9C;
+         }
+     }
+     
+ } 
+ .foot{
+         width: 100%;
+         background: rgba(0,0,0,0.8);
+         display: flex;
+         justify-content: space-around;
+         height: 0.53rem;
+         align-items: center;
+         position: relative;
+//       line-height: 0.53rem;
+span{
+    display: inline-block;
+    width:0.14rem ;
+    height: 0.14rem;
+    line-height: 0.14rem;
+    background: #00BE9C;
+//  text-align: center;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    left: 0;
+    border-radius: 0 0 100% 0;
+}
+         img{
+             width: 50%;
+         }
+         p{
+             height: 0.25rem;
+             width:1rem ;
+             font-size: 0.14rem;
+//           line-height: 0.86rem;
+             background: #feb505;
+             color: #fff;
+             padding: 0.05rem ;
+             border-radius: 0.3rem;
+         }
+ }

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  width: 100%;
+  font-size: 0.16rem; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  background: #fff;
+  z-index: 50;
+  top: 0;
+  justify-content: space-around;
+  padding: 0.08rem 0;
+  align-items: center; }
+  .header .head-L {
+    width: 30%; }
+    .header .head-L img {
+      width: 100%;
+      margin-left: 0.08rem; }
+  .header .head-C {
+    width: 50%;
+    text-align: center;
+    font-size: 0.18rem; }
+  .header .head-R {
+    width: 20%; }
+    .header .head-R ul {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .header .head-R ul li {
+        text-align: center;
+        margin-right: 0.08rem; }
+        .header .head-R ul li span {
+          font-size: 0.2rem;
+          color: #999; }
+        .header .head-R ul li p {
+          font-size: 0.11rem;
+          color: #999; }
+
+.box {
+  width: 100%;
+  margin-top: 0.6rem; }
+  .box img {
+    width: 100%; }
+
+.con {
+  width: 100%; }
+  .con ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 0; }
+    .con ul li {
+      width: 50%;
+      text-align: center; }
+      .con ul li .p1 {
+        width: 1rem;
+        height: 1rem;
+        line-height: 1rem;
+        background: #00BE9C;
+        border-radius: 50%;
+        text-align: center;
+        margin: 0 auto; }
+        .con ul li .p1 span {
+          color: #fff;
+          display: inline-block;
+          font-size: 0.5rem; }
+      .con ul li p {
+        margin-top: 0.1rem; }
+
+.ss {
+  width: 100%;
+  text-align: center;
+  background: #eee;
+  padding: 0.1rem 0; }
+  .ss img {
+    width: 80%; }
+  .ss p {
+    margin-top: 0.1rem; }
+
+.fang {
+  text-indent: 2em;
+  margin-top: 0.1rem;
+  border-bottom: 0.09rem solid #f4f4f4; }
+
+.fuwu {
+  width: 100%;
+  text-align: center;
+  position: relative; }
+  .fuwu .p1 {
+    font-size: 0.14rem;
+    color: #333;
+    margin-top: 0.1rem; }
+    .fuwu .p1 span {
+      font-size: 0.16rem;
+      color: #00BE9C; }
+  .fuwu .p2 {
+    position: absolute;
+    top: -0.1rem;
+    right: 0;
+    border: 1px solid #dedede;
+    border-radius: 50%;
+    padding: 0.1rem 0.15rem; }
+    .fuwu .p2 span {
+      color: #9c9c9c; }
+  .fuwu ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.1rem 0; }
+    .fuwu ul li {
+      font-size: 0.14rem; }
+    .fuwu ul li:hover {
+      color: #00BE9C; }
+  .fuwu .p3 {
+    margin-top: 0.2rem;
+    color: #999; }
+  .fuwu img {
+    margin-top: 0.1rem;
+    height: 0.1rem;
+    width: 100%; }
+
+/*# sourceMappingURL=index.css.map */
